@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* img-slider */
+
+/* ./img-slider */
+
+.box-shadow-custom {
+    box-shadow: #d7d6d6 0px 0px 20px;
+}
+
+.section-gap{
+    @apply pt-14 pb-14;
+}
+
+
+.cart-item img {
+    transition: transform 0.3s ease;
+}
+.cart-item img:hover {
+    transform: scale(1.1);
+}
+.bottom-arrow {
+    @apply flex items-center justify-center absolute cursor-pointer -bottom-5 left-1/2 w-7 h-7 bg-white border border-gray-200;
+    transform: translateX(-50%);
+    border-radius: 50%;
+
+}
+.bottom-arrow:hover {
+    @apply bg-white border-gray-400;
+}
+.bottom-arrow::before {
+    content: "↓";
+    font-size: 16px;
+    color: #333;
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  .animate-bounce {
+    animation: bounce 1s ease infinite;
+  }
+  
+
+  /* Ensure the <li> has relative positioning */
+.relative {
+    position: relative;
+}
+
+/* Initially hide the dropdown */
+.hidden {
+    display: none;
+}
+
+/* Show the dropdown when hovering over the parent <li> */
+.group:hover .hidden {
+    @apply block;
+    
+}
+
+
+.group:hover .dropdown-content {
+    @apply block;
+}
+
+
+#img-product{
+    transition: .8s ease;
+}
+
+#img-product:hover{
+    transform: scale(1.1);
+}
+
+
+/*
+  Based on TailwindCSS recommendations,
+  consider using classes instead of the `@apply` directive
+  @see https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction
+*/
+.button-container {
+  @apply relative inline-flex items-center bg-[white] transition-[background-color] duration-[0.3s] ease-[ease-in-out] cursor-pointer border px-6 py-2 border-solid border-transparent hover:bg-neutral-100;
+  /* Adjust the padding as needed */
+  /* Add border for better appearance */
+}
+.button-container:hover {
+  /* Adjust hover background color as needed */
+}
+.button-text {
+  @apply flex items-center transition-transform duration-[0.2s] ease-[ease-in-out];
+}
+.button-container:hover .button-text {
+  @apply -translate-x-2.5;
+}
+.button-img {
+  @apply w-4 h-4 opacity-0 transition-opacity duration-[0.3s] ease-[ease-in-out] ml-2;
+  /* Adjust size as needed */
+  /* Adjust size as needed */
+  /* Adjust spacing as needed */
+}
+.button-container:hover .button-img {
+  @apply opacity-100;
+}
+.button-box {
+  @apply relative inline-flex items-center bg-transparent transition-[background-color] duration-[0.3s] ease-[ease-in-out] cursor-pointer px-6 lg:px-10 py-3 border-2 border-solid border-[black] hover:bg-[black] hover:text-[white];
+  /* Adjust the padding as needed */
+  /* Add border for better appearance */
+}
+.button-box:hover {
+  /* Adjust hover background color as needed */
+}
+.button-txt {
+  @apply flex items-center transition-transform duration-[0.2s] ease-[ease-in-out];
+}
+.button-box:hover .button-txt {
+  @apply -translate-x-2.5;
+}
+.button-imgs {
+  @apply w-4 h-4 opacity-0 transition-opacity duration-[0.3s] ease-[ease-in-out] ml-2;
+  /* Adjust size as needed */
+  /* Adjust size as needed */
+  /* Adjust spacing as needed */
+}
+.button-box:hover .button-imgs {
+  @apply opacity-100 text-[white];
+}
+.button-container-1 {
+  @apply relative inline-flex items-center bg-[#9FD62E] transition-[background-color] duration-[0.3s] ease-[ease-in-out] cursor-pointer border px-6 py-3 border-solid border-transparent hover:bg-[#9FD62E];
+  /* Adjust the padding as needed */
+  /* Add border for better appearance */
+}
+.button-container-1:hover {
+  /* Adjust hover background color as needed */
+}
+.button-text-1 {
+  @apply flex items-center transition-transform duration-[0.2s] ease-[ease-in-out];
+}
+.button-container-1:hover .button-text-1 {
+  @apply -translate-x-2.5;
+}
+.button-img-1 {
+  @apply opacity-0 transition-opacity duration-[0.3s] ease-[ease-in-out] ml-2;
+  /* Adjust size as needed */
+  /* Adjust size as needed */
+  /* Adjust spacing as needed */
+}
+.button-container-1:hover .button-img-1 {
+  @apply opacity-100;
+}
+
+
+
+
+
+/*
+  Based on TailwindCSS recommendations,
+  consider using classes instead of the `@apply` directive
+  @see https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction
+*/
+.flip-card {
+  @apply relative w-16 h-16 lg:w-20 lg:h-20;
+  /* Adjust width as needed */
+  /* Adjust height as needed */
+  perspective: 1000px;
+  /* Add perspective to the flip effect */
+}
+.flip-p{
+  @apply text-xs;
+}
+.flip-card-inner {
+  @apply absolute w-full h-full transition-transform duration-[0.9s];
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  @apply absolute w-full h-full;
+  backface-visibility: hidden;
+  /* Hide the back face of the card */
+}
+.flip-card-front {
+  @apply flex justify-center items-center bg-transparent;
+}
+.flip-card-back {
+  @apply flex justify-center items-center text-[white];
+  transform: rotateY(180deg);
+}
+.flip-card-img {
+  @apply w-full h-auto;
+  /* Make the image fill the card */
+  /* Maintain aspect ratio */
+}
+
+.item-a {
+  @apply relative;
+}
+.item-a .card {
+  @apply relative w-72 p-4 h-[400_px] overflow-hidden;
+}
+.item-a .card .contentBx {
+  @apply absolute w-full h-[100px] text-center transition-[1s] z-[90] bottom-0;
+}
+.item-a .card:hover .contentBx {
+  @apply h-[210px];
+}
+.item-a .card .contentBx a {
+  @apply inline-block no-underline font-semibold text-[#111] opacity-0 translate-y-[50px] transition-[0.5s] mt-[110px] px-5 py-2.5 border-l-[gray] border-l border-solid;
+  background: #fff;
+}
+
+
+.item-a .card:hover .contentBx a {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: .2s;
+} 
+
+.icon-image:hover{
+    animation:floatImage 0.3s ease-in-out infinite;
+}
+@keyframes floatImage{
+    
+    0%{
+        transform: translatex(0);
+    }
+    50%{
+        transform: translateX(-0.8rem);
+    }
+    100%{
+        transform: translatex(0);
+    }
+}
+
+

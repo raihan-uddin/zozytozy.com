@@ -1,0 +1,68 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+/.zed
+
+# htaccess file
+.htaccess
+
+# ignore packaged files
+*.zip
+*.gz
+*.tar
+*.rar
+*.7z
+*.dmg
+*.gz
+*.iso
+
+# ignore logs
+*.bak
+
+# ignore database
+*.sql
+*.csv
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore cache
+.cache/
+
+# Ignore meilisearch data
+data.ms
+
+# Ignore meilisearch logs
+logs.ms
+
+# Ignore meilisearch dumps
+dumps.ms
+
+# Ignore meilisearch pid
+pid.ms
+
+# Ignore meilisearch schema
+schema.ms
