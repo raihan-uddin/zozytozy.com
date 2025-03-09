@@ -56,7 +56,7 @@ View Order Details
     @endif
     <p style="font-size: 16px; color: #333;">We appreciate your business and look forward to serving you again soon.</p>
     <p style="font-size: 14px; color: #777;">
-        If you have any questions or need assistance, feel free to contact our support team at <a href="mailto:support@binbox.com.bd" style="color: #4A90E2;">support@preciousbotanic.com</a>
+        If you have any questions or need assistance, feel free to contact our support team at <a href="mailto:support@zozytozy.com.bd" style="color: #4A90E2;">support@preciousbotanic.com</a>
     </p>
 </div>
 

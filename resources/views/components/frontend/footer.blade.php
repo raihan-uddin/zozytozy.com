@@ -56,7 +56,7 @@
                                  class="bb-footer-dark-logo max-w-[144px] mb-[30px] max-[767px]:max-w-[130px] hidden lozad"
                                  alt="footer logo">
                             <p class="bb-footer-detail max-w-[400px] mb-[30px] p-[0] font-Poppins text-[14px] leading-[27px] font-normal text-[#686e7d] inline-block relative max-[1399px]:text-[15px] max-[1199px]:text-[14px]">
-                                binbox is your go-to source for natural and herbal beauty products. Embrace
+                            zozytozy is your go-to source for natural and herbal beauty products. Embrace
                                 your wellness journey with our carefully curated selection.
                             </p>
                         </div>

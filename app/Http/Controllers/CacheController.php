@@ -23,11 +23,11 @@ class CacheController extends Controller
         // Create storage link
         Artisan::call('storage:link');
 
-        try {
-            symlink('/home/binboxcom/laravel/storage/app/public', '/home/binboxcom/public_html/storage');
-        } catch (\Exception $e) {
-            // do nothing
-        }
+        // try {
+        //     symlink('/home/zozytozy/laravel/storage/app/public', '/home/zozytozy/public_html/storage');
+        // } catch (\Exception $e) {
+        //     // do nothing
+        // }
 
         // Return a view with a success message
         return view('cache.clear', [

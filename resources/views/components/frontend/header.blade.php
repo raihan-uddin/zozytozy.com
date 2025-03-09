@@ -47,10 +47,10 @@
 
                                     <span class="h-full">
                                         <span class="block text-lg text-[#5eb595] font-semibold leading-tight tracking-tight transition-all duration-300">
-                                            BINBOX
+                                        Zozy Tozy
                                         </span>
                                         <span class="block text-xs text-[#5eb595] font-medium leading-snug tracking-widest transition-all duration-300">
-                                            ECO-Friendly Ecommerce
+                                            Tailoring Trend Shaping Dream
                                         </span>
                                     </span>
                                 </a>

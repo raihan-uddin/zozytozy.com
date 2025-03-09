@@ -13,8 +13,8 @@ class SettingsSeeder extends Seeder
     public function run(): void
     {
         DB::table('settings')->insert([
-            ['key' => 'site_name', 'value' => 'BinBox', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
-            ['key' => 'site_email', 'value' => 'info@binbox.com.bd', 'type' => 'email', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'site_name', 'value' => 'Zozy Tozy', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'site_email', 'value' => 'info@zozytozy.com.bd', 'type' => 'email', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'site_phone', 'value' => '', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'site_address', 'value' => '234 E 47th street, Chicago iI 60653', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
             // google map
@@ -33,18 +33,18 @@ class SettingsSeeder extends Seeder
             ['key' => 'shipping_rate', 'value' => '0', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'tax_rate', 'value' => '0', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'site_description', 'value' => 'Health & Beauty Products', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
-            ['key' => 'site_keywords', 'value' => 'BinBox, Health  & Beauty Products', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
-            ['key' => 'site_author', 'value' => 'BinBox', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'site_keywords', 'value' => 'zozytozy, Health  & Beauty Products', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'site_author', 'value' => 'zozytozy', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'site_google_analytics', 'value' => '', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'site_facebook', 'value' => '', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
-            ['key' => 'site_instagram', 'value' => 'https://www.instagram.com/binbox2024', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'site_instagram', 'value' => 'https://www.instagram.com/zozytozy2024', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'site_linkedin', 'value' => '', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'site_youtube', 'value' => '', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'site_whatsapp', 'value' => '', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'site_telegram', 'value' => '', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'site_snapchat', 'value' => '', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
-            ['key' => 'site_twitter', 'value' => 'https://twitter.com/BinBox', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
-            ['key' => 'site_tiktok', 'value' => 'https://www.tiktok.com/@binbox', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'site_twitter', 'value' => 'https://twitter.com/zozytozy', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'site_tiktok', 'value' => 'https://www.tiktok.com/@zozytozy', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
             // Google ReCapcha *
             ['key' => 'capcha', 'value' => 0, 'type' => 'boolean', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'recaptcha_site_key', 'value' => '', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
@@ -83,11 +83,11 @@ class SettingsSeeder extends Seeder
             ['key' => 'show_newsletter', 'value' => 1, 'type' => 'boolean', 'created_at' => now(), 'updated_at' => now()],
 
             // meta tags
-            ['key' => 'home_page_meta_description', 'value' => 'BinBox is your go-to source for natural and herbal beauty products. Embrace your wellness journey with our carefully curated selection.', 'type' => 'textarea', 'created_at' => now(), 'updated_at' => now()],
-            ['key' => 'home_page_meta_keywords', 'value' => 'BinBox, natural beauty products, herbal beauty products, wellness products', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
-            ['key' => 'home_page_meta_author', 'value' => 'BinBox', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
-            ['key' => 'home_page_meta_title', 'value' => 'BinBox - Natural & Herbal Beauty Products', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
-            ['key' => 'meta_twitter_handle', 'value' => '@BinBox', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'home_page_meta_description', 'value' => 'zozytozy is your go-to source for natural and herbal beauty products. Embrace your wellness journey with our carefully curated selection.', 'type' => 'textarea', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'home_page_meta_keywords', 'value' => 'zozytozy, natural beauty products, herbal beauty products, wellness products', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'home_page_meta_author', 'value' => 'zozytozy', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'home_page_meta_title', 'value' => 'zozytozy - Natural & Herbal Beauty Products', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
+            ['key' => 'meta_twitter_handle', 'value' => '@zozytozy', 'type' => 'text', 'created_at' => now(), 'updated_at' => now()],
 
             ['key' => 'show_tools_bar', 'value' => 1, 'type' => 'boolean', 'created_at' => now(), 'updated_at' => now()],
             ['key' => 'show_search_bar', 'value' => 1, 'type' => 'boolean', 'created_at' => now(), 'updated_at' => now()],

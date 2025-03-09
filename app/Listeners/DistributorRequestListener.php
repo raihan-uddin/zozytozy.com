@@ -21,6 +21,6 @@ class DistributorRequestListener
     {
         Mail::to($event->data->email)->send(new DistributorRequestEmailToClient($event->data));
         Mail::to(config('app.owner_emails.raihan'))->send(new DistributorRequestEmailToOwner($event->data));
-        Mail::to('app.owner_emails.binbox')->send(new DistributorRequestEmailToOwner($event->data));
+        Mail::to('app.owner_emails.zozytozy')->send(new DistributorRequestEmailToOwner($event->data));
     }
 }

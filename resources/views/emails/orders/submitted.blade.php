@@ -47,7 +47,7 @@ View Order Details
 <div style="text-align: center; padding: 20px 0; background-color: #f8fafc;">
     <p style="font-size: 16px; color: #333;">Thanks for shopping with us! We look forward to confirming your order.</p>
     <p style="font-size: 14px; color: #777;">
-        If you have any questions or need assistance, please reach out to our support team at <a href="mailto:support@binbox.com.bd" style="color: #4A90E2;">support@preciousbotanic.com</a>
+        If you have any questions or need assistance, please reach out to our support team at <a href="mailto:support@zozytozy.com.bd" style="color: #4A90E2;">support@preciousbotanic.com</a>
     </p>
 </div>
 

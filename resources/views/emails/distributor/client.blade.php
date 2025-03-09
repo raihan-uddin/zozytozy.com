@@ -37,7 +37,7 @@
     <p style="font-size: 16px; color: #333;">We appreciate your interest and look forward to assisting you!</p>
     <p style="font-size: 14px; color: #777;">
         If you have any questions, don’t hesitate to email us at
-        <a href="mailto:support@binbox.com.bd" style="color: #4A90E2;">support@binbox.com.bd</a>.
+        <a href="mailto:support@zozytozy.com.bd" style="color: #4A90E2;">support@zozytozy.com.bd</a>.
     </p>
 </div>
 

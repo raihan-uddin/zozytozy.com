@@ -66,10 +66,10 @@ View Your Order Details
 
     </p>
     <p style="margin-top: 10px; font-size: 14px;">
-        If you have any questions or need further assistance, please feel free to reach out to us at <a href="mailto:support@binbox.com.bd" style="color: #4A90E2;">support@preciousbotanic.com</a>.
+        If you have any questions or need further assistance, please feel free to reach out to us at <a href="mailto:support@zozytozy.com.bd" style="color: #4A90E2;">support@preciousbotanic.com</a>.
     </p>
     <p style="margin-top: 10px; font-size: 14px;">
-        &copy; {{ date('Y') }} BinBox. All Rights Reserved.
+        &copy; {{ date('Y') }} zozytozy. All Rights Reserved.
     </p>
 </div>
 

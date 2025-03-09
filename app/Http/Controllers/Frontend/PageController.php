@@ -68,8 +68,8 @@ class PageController extends Controller
             ->take(6)
             ->get();
 
-        $metaDescription = 'Discover the finest selection of beauty and health products at BinBox. Buy the best quality products online at affordable prices. Shop skincare, wellness, and beauty essentials crafted from nature for a healthier, more radiant you. Get the latest products and the best deals. Free shipping on all orders above $200.';
-        $metaKeywords = 'beauty, health, skincare, wellness, beauty essentials, nature, radiant, skincare products, wellness products, beauty products, beauty deals, free shipping, BinBox, organic beauty, natural products, affordable beauty, skincare essentials, wellness products, online shopping, best beauty deals';
+        $metaDescription = 'Discover the finest selection of beauty and health products at ZozyTozy. Buy the best quality products online at affordable prices. Shop skincare, wellness, and beauty essentials crafted from nature for a healthier, more radiant you. Get the latest products and the best deals. Free shipping on all orders above $200.';
+        $metaKeywords = 'beauty, health, skincare, wellness, beauty essentials, nature, radiant, skincare products, wellness products, beauty products, beauty deals, free shipping, ZozyTozy, organic beauty, natural products, affordable beauty, skincare essentials, wellness products, online shopping, best beauty deals';
 
         return view('frontend.pages.home', compact(
             'categories',

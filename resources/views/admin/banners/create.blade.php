@@ -105,7 +105,7 @@
                         <div class="mb-4">
                             <x-input-label for="link" :value="__('Link')"/>
                             <x-input id="link" class="block mt-1 w-full" type="url" name="link"
-                                placeholder="https://binbox.com.bd/collection/natural-products"
+                                placeholder="https://zozytozy.com.bd/collection/natural-products"
                                 :value="old('link')"/>
                             @error('link')
                             <span class="text-red-600 text-sm" role="alert">

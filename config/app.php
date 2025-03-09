@@ -154,6 +154,6 @@ return [
     */
     'owner_emails' => [
         'raihan' => 'raihanptl21@gmail.com',
-        'binbox' => env('OWNER_EMAIL_binbox', 'binbox@gmail.com'),
+        'zozytozy' => env('OWNER_EMAIL_zozytozy', 'zozytozy@gmail.com'),
     ],
 ];
